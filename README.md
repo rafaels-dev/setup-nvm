@@ -1,2 +1,8 @@
 # setup-nvm
-Script for setup NVM for some project by reading property engines.node in package.json
+This script install Node.js version defined on package.json and install latest NPM version
+
+## How to Use
+
+- Copy 'setup-nvm' to your project folder or /usr/bin
+- Open your project folder in terminal
+- Run `setup-nvm`
