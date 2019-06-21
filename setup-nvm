@@ -1,7 +1,4 @@
-. ~/.nvm/nvm.sh
-. ~/.profile
-. ~/.bashrc
-
+# Copy and paste following lines in your terminal session
 node_version=$(cat package.json | jq -rc '.engines.node');
 nvm install $node_version;
 nvm use $node_version;
